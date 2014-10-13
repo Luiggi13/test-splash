@@ -15,6 +15,7 @@
 	
 	<!-- this app will have no device api access -->
 	<preference name="permissions" value="none"/>
+	<preference name="fullscreen" value="true" /> 
 	
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="ABSicon.png" />
