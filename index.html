@@ -1,86 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ABS - El firmador</title>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
 
-      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="css/base.css" />
-      <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
-      <link rel="stylesheet" type="text/css" href="css/rwd.css" />
-<!--[if gte IE 9]>
-<style type="text/css">
-.gradient {
- filter: none;background-color:#295f77;
-}
-</style>
-<![endif]-->
-  </head>
-   <body class="gradient login">
-       <div class="container">
-         <div class="row">
-           <div class="col-md-12 logoLogin">
-            <a href="app.htm"> <img src="img/logo-interior.png" alt="" /></a>
-           </div>
-           <div class="col-md-12 myform">
-             <form id="loginFirmador" action="app.htm" method="post">
-               <div class="filaInput usrDv">
-                 <input type="text" name="user" value="Christian" placeholder="Nom d'usuari">
-               </div>
-               <div class="filaInput pwdDv">
-                 <input type="text" name="passwrod" value="" placeholder="Password">
-               </div>
-               <div class="filaInput entDv">
-                 <input type="text" name="codEntorn" value="" placeholder="Codi d'entorn a treballar">
-               </div>
-               <div class="filaSubmit tab">
-                 <!-- <button type="submit" class="btn btn-primary">Acceptar</button> -->
-                 <a href="app.htm" class="btn btn-primary loguearse">Acceder</a>
-               </div>
-               <hr class="sepLog">
-               <p>
-                 Atenció al client: 93 486 46 01 - 973 22 40 18  © 2014, ABS Informática SL.
-               </p>
-               <div class="smartLandscape"></div>
-             </form>
-           </div>
-         </div>
-       </div>
+		<!-- Bootstrap CSS -->
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-      <script charset="utf-8">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style type="text/css">
+html, body, .container, .row{height: 100%;}
+.navbar-default {background-color: #0095d9;border-color: #0095d9;}
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4{height:33.3333%;position: relative;border-right: 1px solid black;border-bottom: 1px solid black;}
+p{position: absolute;bottom: 0;width: 100%;left:0;height: 40px;font-size:25px;text-align: center;color:white;margin: 0;}
+.row img{position: absolute;top:0;bottom:0;left:0;right:0;margin: auto;width: 128px;height: 128px;}
+		</style>
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container" style="text-align:center;margin-top:5px;"><img src="logo-tecnogeo.png" alt="" height="40px;margin:5px 0 0 0;float:left;"></div>
+		</div>
 
-          var client_navigator = navigator.userAgent.toLowerCase(),
-              client_navigator_version = (client_navigator.match(/.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/) || [])[1],
-              client_navigator_options = {
-                  version: client_navigator_version,
-                  webkit: !!client_navigator.match(/webkit/i),
-                  ie: !!client_navigator.match(/msie/i),
-                  opera: !!client_navigator.match(/opera/i),
-                  firefox: !!client_navigator.match(/firefox/i),
-                  chrome: !!client_navigator.match(/chrome/i),
-                  win: !!client_navigator.match(/win/i),
-                  mac: !!client_navigator.match(/mac/i),
-                  ios: !!client_navigator.match(/ipad|iphone|ipod/i),
-                  ipad: !!client_navigator.match(/ipad/i),
-                  iphone: !!client_navigator.match(/iphone/i),
-                  ipod: !!client_navigator.match(/ipod/i),
-                  android: !!client_navigator.match(/android/i),
-                  berry: !!client_navigator.match(/blackberry/i),
-                  winphone: !!client_navigator.match(/windows phone/i)
-              };
-          $(document).ready(function() {
-              client_navigator_options.ie && $("body").addClass("IE" + client_navigator_version / 1);
-              client_navigator_options.ios && (client_navigator_options.ipad && $("body").addClass("IOS IPAD"), client_navigator_options.iphone && $("body").addClass("IOS IPHONE"), client_navigator_options.ipod && $("body").addClass("IOS IPOD"));
-              client_navigator_options.android && $("body").addClass("ANDROID");
-              client_navigator_options.berry && $("body").addClass("BBERRY");
-              client_navigator_options.winphone && $("body").addClass("WINPHONE")
-          });
-      </script>
-   </body>
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;margin-top:50px;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;margin-top:50px;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;margin-top:50px;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color:#BF091C;">
+					<img src="ico.png" alt="">
+					<p>Notícias</p>
+				</div>
+			</div>
 
-
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</body>
 </html>
