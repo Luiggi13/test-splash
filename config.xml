@@ -45,5 +45,5 @@
     <author href="https://www.teitter.com/luiggidesigner" email="christian.llansola@gmail.com">
         Luiggi Designer
     </author>
-
+<access origin="*"/>
 </widget>
