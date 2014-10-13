@@ -1,0 +1,193 @@
+/* rwd*/
+
+@media (max-width: 767px) and (orientation : portrait){
+/*body.login{padding-top:30px;}*/
+  body.login .row{margin: auto;height: auto!important;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+  .col-xs-11 {
+      width: 91.667%;}
+}
+@media (max-width: 767px)  {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+
+  #loginFirmador .filaInput{width:100%;padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:100px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .filaSubmit button[type="submit"]{width:100%;height:75%;font-size:2em;}
+
+  /*viafirma*/
+  .moduloFirma .top{height:78px;border-bottom:2px solid #6b6d6b;}
+  .moduloFirma .top h2{float:left;width:100%;font-size:16px;text-align:center;line-height:68px;height:100%;margin:0;}
+  .moduloFirma .middler p {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 30px;
+    line-height: 40px;
+}
+.option1, .option2, .option1 img, .option2 img{width:20px;}
+.option1, .option2{position:relative;}
+.option1 img, .option2 img{position: absolute;
+top: -7px;
+bottom: 0px;
+left: -5px;
+right: 0px;
+margin: auto;}
+
+.contOptions .desc1 span, .contOptions .desc2 span {height: 50px;font-size: 15px;}
+.contOptions {margin:0px 3% 40px 3%!important;}
+.contOptions .desc1 span {line-height: 4px;}
+.contOptions .desc2 span {line-height: 40px;}
+.contOptions .desc1, .contOptions .desc2{padding-left:10px;}
+/*.loading{top:0%;}*/
+.cargando{height: 20px !important;}
+.moduloFirma .middler {
+    height: 380px;}
+
+.moduloFirma .bottomer h2{font-size:20px;}
+/*.firmar a{width: 50px;
+height: 50px;
+float: right;
+position: absolute;
+z-index: 10;}
+*/
+.col-xs-11 {
+    width: 91.667%;}
+}
+@media (max-width: 767px) and (orientation : landscape) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+body.login{padding-top:20px;}
+  #loginFirmador .filaInput{padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;float: left;
+width: 49%;clear: both;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:25px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .filaSubmit {width:49%;height:40px;font-size:1em;float:left;margin-left:1%;}
+  .filaSubmit button[type="submit"]{width:100%;height:100%;font-size:1em;}
+  .smartLandscape{display:block!important;}
+  .logoLogin{display:none!important;}
+  .filaSubmit button[type="submit"], a.loguearse{line-height:28px;}
+  .contOptions .desc1 span {line-height: 44px;}
+
+html.firma, body.firma{
+  background: #949694!important; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5NWY3NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTMyNTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)!important;
+  background: -moz-linear-gradient(left, #949694 0%, #949694 100%)!important; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#949694), color-stop(100%,#949694))!important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #949694 0%,#949694 100%)!important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #949694 0%,#949694 100%)!important; /* Opera 11.10+ */
+  /*background: -ms-linear-gradient(left, #949694 0%,#949694 100%)!important; /* IE10+ */*/
+  background: linear-gradient(to right, #949694 0%,#949694 100%)!important; /* W3C */
+  background-color: #949694!important; /* Old browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#949694', endColorstr='#949694',GradientType=1 )!important; /* IE6-8 */
+}
+
+.col-xs-11 {
+    width: 92.667%!important;}
+}
+}
+
+@media (min-width: 768px) and (orientation : landscape){
+  body.login{padding-top:50px;}
+
+}
+@media (min-width: 768px) and (orientation : portrait){
+
+}
+@media (min-width: 768px) {
+.moduloFirma .middler p {font-size: 20px;}
+.contOptions .desc1 span, .contOptions .desc2 span {font-size: 18px;}
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+  #loginFirmador .filaInput{width:100%;padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:60px;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin {   height: 130px;margin-top:15px;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .filaSubmit {width:100%;height:60px;font-size:1em;float:left;margin-left:0;}
+    .filaSubmit button[type="submit"], a.loguearse {
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    line-height: 41px;}
+    /*body.login .row{margin: auto;height: 60%;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }*/
+}
+@media (max-width: 991px) and (orientation : landscape) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+#loginFirmador{margin-top:50px;}
+  #loginFirmador .filaInput{padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;float: left;
+width: 49%;clear: both;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%!important;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:25px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left; width:49%!important;}
+  .filaSubmit {width:49%;height:40px;font-size:1em;float:left;margin-left:1%;}
+  .filaSubmit button[type="submit"]{width:100%;height:100%;font-size:1em;}
+  .smartLandscape{display:block!important;}
+  .logoLogin{display:none!important;}
+}
+
+@media (min-width: 992px) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+  /*body {padding-top: 20px}*/
+  body.login .row{margin: auto;height: 500px;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+  #loginFirmador .filaInput{width:49%;padding:15px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:60px;clear:left;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin {   height: 130px;margin-top:15px;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .filaSubmit {width:49%;height:60px;font-size:1em;float:left;margin-left:1%;}
+    body{padding-top:0px;}
+    .logoLogin{display:none!important;}
+    .smartLandscape{display:block!important;}
+}
+@media (min-width: 1200px) {
+  body.splash{background: transparent url(../img/absSplash.png) no-repeat center center;}
+  #loginFirmador{width:100%;}
+  #loginFirmador .filaInput{width:100%!important;padding:25px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:100px;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .logoLogin{display:block!important;}
+    .smartLandscape{display:none!important;}
+    .filaSubmit {width:100%;margin:0 0 20px 0;}
+}
+
+@media only screen and (min-width : 1824px) {
+body.splash{background: transparent url(../img/absSplash.png) no-repeat center center;}
+/*
+background-image:url('http://besiberri01:8080/html5/img/absSplash.png');
+background-repeat: no-repeat;
+bbackground-position: center center;
+background-color:red;
+*/
+#loginFirmador .filaInput{width:100%;padding:25px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:100px;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+#loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+.row .col-md-12.logoLogin img{}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .testing{width:500px;height:500px;background-color:black;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;display:block;}
+}
+
+@media only screen and (min-width : 1824px) {
+/* pantalles molt grans */
+  /*.testing{width:500px;height:500px;background-color:black;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;display:block;}*/
+  }body.login .row{margin: auto;height: 700px;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+}
+/* rwd*/
