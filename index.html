@@ -110,19 +110,6 @@ div.contAudios.header h1{font-size:25px;color:white;width:100%;text-align:center
 	});
 	});
 
-		$( "img.played" ).click(function() {
-		$('img.played').attr('src','img/btn.png');
-		$(this).attr('src','img/btn1.png');
-		var myid = $(this).attr('id');
-		var myurl= ""
-		$('#demo').attr('src',myurl + myid +'.mp3');
-		document.getElementById('demo').play();
-
-		$("#demo").bind('ended', function(){
-	    // stopped playing
-	    $("img.played").attr('src','img/btn.png');
-	});
-	});
 	</script>
 </body>
 </html>
