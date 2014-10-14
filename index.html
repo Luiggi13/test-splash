@@ -28,8 +28,12 @@ border-bottom: 1px dashed #CF0;
 padding-top: 8px;}
 div.contAudios p.pepino{line-height: 18px;}
 div.contAudios.header{background: red url('bgheader.png') repeat-x bottom left;border-bottom: none;position:fixed;top:0px;left:0;z-index: 5;height:60px;width:100%;}
-div.contAudios.header h1{font-size:25px;color:white;width:100%;text-align:center;line-height: 18px;}
-
+div.contAudios.header h1{font-size:25px;color:white;width:100%;text-align:center;line-height: 18px;float:left;}
+div.contAudios.header img{float: left;z-index: 10;
+margin-top: 5px;
+position: absolute;
+left: 10px;
+top: -1px;}
 @media (min-width: 575px) {
 	.contAudios {width:100%;}
   div.contAudios p.pepino{line-height: 28px;}
@@ -37,6 +41,7 @@ div.contAudios.header h1{font-size:25px;color:white;width:100%;text-align:center
 	</style>
 <body>
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 contAudios header">
+				<img src="rac1-header.png" width="50" height="50" />
 				<h1>Rac1 - La competència</h1>
 			</div>
 	<audio id="demo" src="xose.mp3" style="display:none;"></audio>
