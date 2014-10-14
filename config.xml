@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.luiggidesigner.splash"
+        id        = "org.luiggidesigner.competencia"
         versionCode="1" 
         version   = "1.0.0">
 		
@@ -18,7 +18,7 @@
 	<preference name="fullscreen" value="true" /> 
 	
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
-	<icon src="ABSicon.png" />
+	<icon src="competenciaicon.png" />
 
 	<!-- the default splash screen to use -->
 	<!-- iOS -->
@@ -36,13 +36,13 @@
 	<!-- Windows Phone -->
 	<gap:splash src="splash7201280.jpg" gap:platform="winphone" />
 
-    <name>TestSplash</name>
+    <name>Lo millor de Xosé Antón - "La Competència" de RAC1</name>
 
     <description>
-        Ejemplo splash
+        Els millors audios d'en Xosé Antón Pazos de Vieira, en el programa de ràdio "La Competència" de RAC1
     </description>
 
-    <author href="https://www.teitter.com/luiggidesigner" email="christian.llansola@gmail.com">
+    <author href="https://www.twitter.com/luiggidesigner" email="christian.llansola@gmail.com">
         Luiggi Designer
     </author>
 <access origin="*"/>
